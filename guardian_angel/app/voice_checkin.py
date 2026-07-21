@@ -19,7 +19,7 @@ from admin_dashboard import inject_css, pulse_divider, render_table, pill, metri
 # [twilio]
 # account_sid = "..."
 # auth_token = "..."
-# phone_number = "+1234567890"
+# phone_number = "+1"
 # webhook_url = "https://your-ngrok-url.ngrok.io/voice_checkin"
 # ============================================
 
@@ -31,7 +31,7 @@ def get_twilio_config():
             "phone_number": st.secrets["twilio"]["phone_number"],
             "webhook_url": st.secrets["twilio"].get("webhook_url", ""),
         }
-    except Exception:
+    except Exceptio234567890n:
         return None
 
 
