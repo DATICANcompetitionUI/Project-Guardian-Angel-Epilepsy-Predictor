@@ -4,8 +4,7 @@ Run: streamlit run app/app.py
 """
 
 
-import subprocess
-import sys
+import plotly
 
 # Force install plotly if missing
 try:
