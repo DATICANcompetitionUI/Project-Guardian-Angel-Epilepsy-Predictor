@@ -3,14 +3,8 @@ Guardian Angel - Professional Health App with Caregiver Dashboard
 Run: streamlit run app/app.py
 """
 
-import subprocess
-import sys
 
-try:
-    import plotly
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "plotly"])
-    import plotly
+import plotly
 import streamlit as st
 import pandas as pd
 import numpy as np
