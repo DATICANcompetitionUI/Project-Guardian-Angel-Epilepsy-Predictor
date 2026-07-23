@@ -366,4 +366,7 @@ If you find this project useful, please give it a star on GitHub!
 
 👼 Guardian Angel — Saving Lives with AI
 
-Built for the AI Innovation Competition 2026
+GUARDIAN ANGEL - DATICAN AI in Medicine Competition 2026
+University of Ibadan, Nigeria
+
+Contact: promivine@gmail.com
